@@ -1,7 +1,7 @@
-*%{color:#7FFF00}TEAM OBJECTIONABLE-C:%*
-  Ezra
-  Mathew
+*TEAM OBJECTIONABLE-C:*
+* Ezra
+* Mathew
 
-*%{color:#FF1493}TEAM SND:%*
-  Robby
-  Andrew
+*TEAM SND:*
+* Robby
+* Andrew
