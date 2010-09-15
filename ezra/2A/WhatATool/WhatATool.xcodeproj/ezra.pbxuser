@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 639124DE123B456D0000DC7B /* WhatATool */;
+		activeTarget = 8DD76F960486AA7600D96B5E /* WhatATool */;
+		addToTargets = (
+			8DD76F960486AA7600D96B5E /* WhatATool */,
+		);
+		breakpoints = (
+			63DF3B30123DE15C00D6D18F /* WhatATool.m:66 */,
+			63DF3B41123DE2D500D6D18F /* WhatATool.m:80 */,
+			63DF3B5D123DE3EF00D6D18F /* WhatATool.m:84 */,
+			63DF3B5F123DE3F200D6D18F /* WhatATool.m:65 */,
+			63DF3B67123DE40F00D6D18F /* WhatATool.m:89 */,
+		);
+		codeSenseManager = 639124E9123B458B0000DC7B /* Code sense */;
+		executables = (
+			639124DE123B456D0000DC7B /* WhatATool */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					930,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 306041854;
+			PBXWorkspaceStateSaveDate = 306041854;
+		};
+		perUserProjectItems = {
+			63DF3B47123DE32E00D6D18F /* PBXTextBookmark */ = 63DF3B47123DE32E00D6D18F /* PBXTextBookmark */;
+			63DF3B49123DE32E00D6D18F /* PBXTextBookmark */ = 63DF3B49123DE32E00D6D18F /* PBXTextBookmark */;
+			63DF3B63123DE3FA00D6D18F /* PBXTextBookmark */ = 63DF3B63123DE3FA00D6D18F /* PBXTextBookmark */;
+			63DF3B6B123DE46300D6D18F /* PBXTextBookmark */ = 63DF3B6B123DE46300D6D18F /* PBXTextBookmark */;
+			63DF3B6C123DE46300D6D18F /* PBXTextBookmark */ = 63DF3B6C123DE46300D6D18F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 639124E8123B458B0000DC7B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* WhatATool.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1316, 1648}}";
+			sepNavSelRange = "{3113, 0}";
+			sepNavVisRange = "{2485, 770}";
+		};
+	};
+	32A70AAB03705E1F00C91783 /* WhatATool_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1108, 553}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 160}";
+		};
+	};
+	639124DE123B456D0000DC7B /* WhatATool */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = WhatATool;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	639124E8123B458B0000DC7B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	639124E9123B458B0000DC7B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	63DF3A7D123DD2E400D6D18F /* PolygonShape.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1108, 553}}";
+			sepNavSelRange = "{415, 0}";
+			sepNavVisRange = "{0, 611}";
+		};
+	};
+	63DF3A7E123DD2E400D6D18F /* PolygonShape.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1108, 1712}}";
+			sepNavSelRange = "{1171, 0}";
+			sepNavVisRange = "{554, 936}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	63DF3B30123DE15C00D6D18F /* WhatATool.m:66 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* WhatATool.m */;
+		functionName = "PrintPolygonInfo()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 66;
+		location = WhatATool;
+		modificationTime = 306045946.672444;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	63DF3B41123DE2D500D6D18F /* WhatATool.m:80 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* WhatATool.m */;
+		functionName = "PrintPolygonInfo()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 80;
+		location = WhatATool;
+		modificationTime = 306045946.676067;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	63DF3B47123DE32E00D6D18F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A70AAB03705E1F00C91783 /* WhatATool_Prefix.pch */;
+		name = "WhatATool_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 160;
+		vrLoc = 0;
+	};
+	63DF3B49123DE32E00D6D18F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DF3A7D123DD2E400D6D18F /* PolygonShape.h */;
+		name = "PolygonShape.h: 21";
+		rLen = 0;
+		rLoc = 415;
+		rType = 0;
+		vrLen = 611;
+		vrLoc = 0;
+	};
+	63DF3B5D123DE3EF00D6D18F /* WhatATool.m:84 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* WhatATool.m */;
+		functionName = "PrintPolygonInfo()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 84;
+		location = WhatATool;
+		modificationTime = 306045947.940771;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	63DF3B5F123DE3F200D6D18F /* WhatATool.m:65 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* WhatATool.m */;
+		functionName = "PrintPolygonInfo()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 65;
+		modificationTime = 306045946.677844;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	63DF3B63123DE3FA00D6D18F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 63DF3A7E123DD2E400D6D18F /* PolygonShape.m */;
+		name = "PolygonShape.m: 46";
+		rLen = 0;
+		rLoc = 1171;
+		rType = 0;
+		vrLen = 936;
+		vrLoc = 554;
+	};
+	63DF3B67123DE40F00D6D18F /* WhatATool.m:89 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* WhatATool.m */;
+		functionName = "PrintPolygonInfo()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 89;
+		location = WhatATool;
+		modificationTime = 306045969.462657;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	63DF3B6B123DE46300D6D18F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WhatATool.m */;
+		name = "WhatATool.m: 66";
+		rLen = 118;
+		rLoc = 2539;
+		rType = 0;
+		vrLen = 967;
+		vrLoc = 2446;
+	};
+	63DF3B6C123DE46300D6D18F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* WhatATool.m */;
+		name = "WhatATool.m: 75";
+		rLen = 0;
+		rLoc = 2926;
+		rType = 0;
+		vrLen = 964;
+		vrLoc = 2449;
+	};
+	8DD76F960486AA7600D96B5E /* WhatATool */ = {
+		activeExec = 0;
+		executables = (
+			639124DE123B456D0000DC7B /* WhatATool */,
+		);
+	};
+}
