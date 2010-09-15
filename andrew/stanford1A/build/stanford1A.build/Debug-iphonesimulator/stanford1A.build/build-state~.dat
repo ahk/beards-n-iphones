@@ -1,227 +1,0 @@
-Tstanford1A
-v7
-r0
-t306128299.369031
-cCheck dependencies
-cProcessInfoPlistFile /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/Info.plist stanford1A-Info.plist
-cCompileXIB /Users/andrew/Code/iPad/stanford1A/MainWindow.xib
-cCpResource "build/Debug-iphonesimulator/stanford1A.app/Roller Skiing.jpg" "Roller Skiing.jpg"
-cProcessPCH /var/folders/ja/jaYFA52fGlWw4P7mXexlnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stanford1A_Prefix-cfaxbhhvdqhqmgeofafpkljxvxbe/stanford1A_Prefix.pch.gch stanford1A_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/Objects-normal/i386/main.o /Users/andrew/Code/iPad/stanford1A/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/Objects-normal/i386/stanford1AAppDelegate.o /Users/andrew/Code/iPad/stanford1A/Classes/stanford1AAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/stanford1A normal i386
-cGenerateDSYMFile /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app.dSYM /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/stanford1A
-cTouch /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C565EA50000000000000132
-t1280728741
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Users/andrew/Code/iPad/stanford1A/Classes/stanford1AAppDelegate.h
-c000000004C8EEC340000000000000150
-t1284434996
-s336
-i<UIKit/UIKit.h>
-
-N/Users/andrew/Code/iPad/stanford1A/Classes/stanford1AAppDelegate.m
-c000000004C8EEC3400000000000009CC
-t1284434996
-s2508
-i"stanford1AAppDelegate.h"
-
-N/Users/andrew/Code/iPad/stanford1A/MainWindow.xib
-c000000004C8EEE1F000000000000534B
-t1284435487
-s21323
-
-N/Users/andrew/Code/iPad/stanford1A/Roller Skiing.jpg
-c000000004BFCA5EE000000000000A358
-t1274848750
-s41816
-
-N/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app
-t1284435499
-s238
-
-N/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app.dSYM
-t1284435499
-s102
-
-N/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/Info.plist
-t1284435494
-s603
-
-N/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/MainWindow.nib
-t1284435495
-s1685
-
-N/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/PkgInfo
-t1284435494
-s8
-
-N/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/Roller Skiing.jpg
-t1284435494
-s41816
-
-N/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/stanford1A
-t1284435499
-s15700
-
-N/Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/Objects-normal/i386/main.o
-t1284435498
-s6296
-
-N/Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/Objects-normal/i386/stanford1A.LinkFileList
-c000000004C8EEE260000000000000109
-t1284435494
-s265
-
-N/Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/Objects-normal/i386/stanford1AAppDelegate.o
-t1284435498
-s46276
-
-N/Users/andrew/Code/iPad/stanford1A/main.m
-c000000004C8EEC34000000000000016C
-t1284434996
-s364
-i<UIKit/UIKit.h>
-
-N/Users/andrew/Code/iPad/stanford1A/stanford1A_Prefix.pch
-c000000004C8EEC3400000000000000BD
-t1284434996
-s189
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/var/folders/ja/jaYFA52fGlWw4P7mXexlnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stanford1A_Prefix-cfaxbhhvdqhqmgeofafpkljxvxbe/stanford1A_Prefix.pch.gch
-t1284435497
-s15232016
-
-Nstanford1A-Info.plist
-c000000004C8EEC34000000000000038D
-t1284434996
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies306128294#306128294#0(0"0(0#1#0"3343187568374212096#0"0#
-
-CCompileC build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/Objects-normal/i386/main.o /Users/andrew/Code/iPad/stanford1A/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s306128297.925145
-e306128298.160490
-r1
-xCompileC
-xbuild/stanford1A.build/Debug-iphonesimulator/stanford1A.build/Objects-normal/i386/main.o
-x/Users/andrew/Code/iPad/stanford1A/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/andrew/Code/iPad/stanford1A/main.m306128297#306128298#0(0"0(0#0#41"/Users/andrew/Code/iPad/stanford1A/main.m8600997792#1917"    cd /Users/andrew/Code/iPad/stanford1A    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/stanford1A-generated-files.hmap -I/Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/stanford1A-own-target-headers.hmap -I/Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/stanford1A-all-target-headers.hmap -iquote /Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/stanford1A-project-headers.hmap -F/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator -I/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/include -I/Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/DerivedSources/i386 -I/Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/DerivedSources -include /var/folders/ja/jaYFA52fGlWw4P7mXexlnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stanford1A_Prefix-cfaxbhhvdqhqmgeofafpkljxvxbe/stanford1A_Prefix.pch -c /Users/andrew/Code/iPad/stanford1A/main.m -o /Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/Objects-normal/i386/main.o0#
-
-CCompileC build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/Objects-normal/i386/stanford1AAppDelegate.o /Users/andrew/Code/iPad/stanford1A/Classes/stanford1AAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s306128297.927433
-e306128298.175581
-r1
-xCompileC
-xbuild/stanford1A.build/Debug-iphonesimulator/stanford1A.build/Objects-normal/i386/stanford1AAppDelegate.o
-x/Users/andrew/Code/iPad/stanford1A/Classes/stanford1AAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/andrew/Code/iPad/stanford1A/Classes/stanford1AAppDelegate.m306128297#306128298#0(0"0(0#0#66"/Users/andrew/Code/iPad/stanford1A/Classes/stanford1AAppDelegate.m8604169504#1959"    cd /Users/andrew/Code/iPad/stanford1A    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/stanford1A-generated-files.hmap -I/Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/stanford1A-own-target-headers.hmap -I/Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/stanford1A-all-target-headers.hmap -iquote /Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/stanford1A-project-headers.hmap -F/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator -I/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/include -I/Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/DerivedSources/i386 -I/Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/DerivedSources -include /var/folders/ja/jaYFA52fGlWw4P7mXexlnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stanford1A_Prefix-cfaxbhhvdqhqmgeofafpkljxvxbe/stanford1A_Prefix.pch -c /Users/andrew/Code/iPad/stanford1A/Classes/stanford1AAppDelegate.m -o /Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/Objects-normal/i386/stanford1AAppDelegate.o0#
-
-CCompileXIB /Users/andrew/Code/iPad/stanford1A/MainWindow.xib
-s306128294.776261
-e306128295.901393
-r1
-xCompileXIB
-x/Users/andrew/Code/iPad/stanford1A/MainWindow.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@25"CompileXIB MainWindow.xib306128294#306128295#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#49"/Users/andrew/Code/iPad/stanford1A/MainWindow.xib8604508544#561"    cd /Users/andrew/Code/iPad/stanford1A    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/MainWindow.nib /Users/andrew/Code/iPad/stanford1A/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCpResource "build/Debug-iphonesimulator/stanford1A.app/Roller Skiing.jpg" "Roller Skiing.jpg"
-s306128294.804618
-e306128294.830762
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/stanford1A.app/Roller Skiing.jpg
-xRoller Skiing.jpg
-lSLF07#2@22"Copy Roller Skiing.jpg306128294#306128294#0(0"0(0#0#52"/Users/andrew/Code/iPad/stanford1A/Roller Skiing.jpg8604218080#454"    cd /Users/andrew/Code/iPad/stanford1A    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/andrew/Code/iPad/stanford1A/Roller Skiing.jpg" /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app0#
-
-CGenerateDSYMFile /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app.dSYM /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/stanford1A
-s306128299.228334
-e306128299.307267
-r1
-xGenerateDSYMFile
-x/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app.dSYM
-x/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/stanford1A
-lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/stanford1A.app.dSYM build/Debug-iphonesimulator/stanford1A.app/stanford1A306128299#306128299#0(0"0(0#0#88"/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/stanford1A8595691232#380"    cd /Users/andrew/Code/iPad/stanford1A    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/stanford1A -o /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app.dSYM0#
-
-CLd /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/stanford1A normal i386
-s306128298.175681
-e306128299.228186
-r1
-xLd
-x/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/stanford1A
-xnormal
-xi386
-lSLF07#2@93"Link /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/stanford1A306128298#306128299#0(0"0(0#0#0"8601332256#895"    cd /Users/andrew/Code/iPad/stanford1A    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator -F/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator -filelist /Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/Objects-normal/i386/stanford1A.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/stanford1A0#
-
-CProcessInfoPlistFile /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/Info.plist stanford1A-Info.plist
-s306128294.704445
-e306128294.776148
-r1
-xProcessInfoPlistFile
-x/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/Info.plist
-xstanford1A-Info.plist
-lSLF07#2@29"Process stanford1A-Info.plist306128294#306128294#0(0"0(0#0#56"/Users/andrew/Code/iPad/stanford1A/stanford1A-Info.plist29555366482477168#476"    cd /Users/andrew/Code/iPad/stanford1A    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility stanford1A-Info.plist -genpkginfo /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app/Info.plist0#
-
-CProcessPCH /var/folders/ja/jaYFA52fGlWw4P7mXexlnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stanford1A_Prefix-cfaxbhhvdqhqmgeofafpkljxvxbe/stanford1A_Prefix.pch.gch stanford1A_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s306128295.901701
-e306128297.924979
-r1
-xProcessPCH
-x/var/folders/ja/jaYFA52fGlWw4P7mXexlnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stanford1A_Prefix-cfaxbhhvdqhqmgeofafpkljxvxbe/stanford1A_Prefix.pch.gch
-xstanford1A_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile stanford1A_Prefix.pch306128295#306128297#0(0"0(0#0#56"/Users/andrew/Code/iPad/stanford1A/stanford1A_Prefix.pch8601814720#1810"    cd /Users/andrew/Code/iPad/stanford1A    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/stanford1A-generated-files.hmap -I/Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/stanford1A-own-target-headers.hmap -I/Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/stanford1A-all-target-headers.hmap -iquote /Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/stanford1A-project-headers.hmap -F/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator -I/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/include -I/Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/DerivedSources/i386 -I/Users/andrew/Code/iPad/stanford1A/build/stanford1A.build/Debug-iphonesimulator/stanford1A.build/DerivedSources -c /Users/andrew/Code/iPad/stanford1A/stanford1A_Prefix.pch -o /var/folders/ja/jaYFA52fGlWw4P7mXexlnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stanford1A_Prefix-cfaxbhhvdqhqmgeofafpkljxvxbe/stanford1A_Prefix.pch.gch0#
-
-CTouch /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app
-s306128299.307362
-e306128299.368970
-r1
-xTouch
-x/Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app
-lSLF07#2@83"Touch /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app306128299#306128299#0(0"0(0#0#0"8604515552#273"    cd /Users/andrew/Code/iPad/stanford1A    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/andrew/Code/iPad/stanford1A/build/Debug-iphonesimulator/stanford1A.app0#
-

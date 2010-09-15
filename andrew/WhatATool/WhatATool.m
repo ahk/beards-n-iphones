@@ -46,7 +46,7 @@ void PrintBookmarkInfo() {
 									  u1, s1,
 									  u2, s2,
 									  u3, s3,
-									  u4, s4];
+									  u4, s4, nil];
 	
 	for (NSString *key in wordsURLS) {
 		if ([key hasPrefix:@"Stanford"]) {

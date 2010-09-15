@@ -1,99 +1,0 @@
-TWhatATool
-v7
-r0
-t306131154.051367
-cCheck dependencies
-cProcessPCH /var/folders/ja/jaYFA52fGlWw4P7mXexlnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhatATool_Prefix-afohfogtvxjqzafasktmrgwknewk/WhatATool_Prefix.pch.gch WhatATool_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/WhatATool.o /Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004BF4701900000000000000EE
-t1274310681
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B90FBB700000000000013E6
-t1267792823
-s5094
-
-N/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C11730A0000000000B37440
-t1276211978
-s11760704
-
-N/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m
-c000000004C8EF94800000000000001FF
-t1284438344
-s511
-i<Foundation/Foundation.h>
-
-N/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool_Prefix.pch
-c000000004C8EF44100000000000000A0
-t1284437057
-s160
-i<Foundation/Foundation.h>
-
-N/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/Debug/WhatATool
-t2
-s0
-
-N/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/WhatATool.LinkFileList
-c000000004C8EF94B000000000000007F
-t1284438347
-s127
-
-N/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/WhatATool.o
-t2
-s0
-
-N/var/folders/ja/jaYFA52fGlWw4P7mXexlnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhatATool_Prefix-afohfogtvxjqzafasktmrgwknewk/WhatATool_Prefix.pch.gch
-t1284438353
-s41401104
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies306131147#306131147#0(0"0(0#1#0"8615533792#0"0#
-
-CCompileC build/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/WhatATool.o /Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s306131153.676200
-e306131154.051281
-r0
-xCompileC
-xbuild/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/WhatATool.o
-x/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m: In function 'main':
-o/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:4: error: 'NSAutoreleasepool' undeclared (first use in this function)
-o/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:4: error: (Each undeclared identifier is reported only once
-o/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:4: error: for each function it appears in.)
-o/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:4: error: 'pool' undeclared (first use in this function)
-o/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:7: warning: implicit declaration of function 'PrintPathInfo'
-o/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:8: warning: implicit declaration of function 'PrintProcessInfo'
-o/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:9: warning: implicit declaration of function 'PrintBookmarkInfo'
-o/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:10: warning: implicit declaration of function 'PrintIntrospectionInfo'
-o/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m: At top level:
-o/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:16: warning: conflicting types for 'PrintPathInfo'
-o/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:7: warning: previous implicit declaration of 'PrintPathInfo' was here
-o/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m: In function 'PrintPathInfo':
-o/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:20: warning: format not a string literal and no format arguments
-lSLF07#2@68"Compile /Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m306131153#306131154#0(1598"/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m: In function 'main':/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:4: error: 'NSAutoreleasepool' undeclared (first use in this function)/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:4: error: (Each undeclared identifier is reported only once/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:4: error: for each function it appears in.)/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:4: error: 'pool' undeclared (first use in this function)/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:7: warning: implicit declaration of function 'PrintPathInfo'/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:8: warning: implicit declaration of function 'PrintProcessInfo'/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:9: warning: implicit declaration of function 'PrintBookmarkInfo'/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:10: warning: implicit declaration of function 'PrintIntrospectionInfo'/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m: At top level:/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:16: warning: conflicting types for 'PrintPathInfo'/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:7: warning: previous implicit declaration of 'PrintPathInfo' was here/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m: In function 'PrintPathInfo':/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m:20: warning: format not a string literal and no format arguments10(4@59"'NSAutoreleasepool' undeclared (first use in this function)306131153#82#131#0(6@60"/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m306131144#4#0#4#0#43"'*' undeclared (first use in this function)0(4@46"'pool' undeclared (first use in this function)306131154#439#118#0(6@60"/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m306131144#4#0#4#0#43"'*' undeclared (first use in this function)0(22@48"Implicit declaration of function 'PrintPathInfo'306131154#557#122#0(6@60"/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m306131144#7#0#7#0#36"implicit declaration of function '*'0(22@51"Implicit declaration of function 'PrintProcessInfo'306131154#679#125#0(6@60"/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m306131144#8#0#8#0#36"implicit declaration of function '*'0(22@52"Implicit declaration of function 'PrintBookmarkInfo'306131154#804#126#0(6@60"/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m306131144#9#0#9#0#36"implicit declaration of function '*'0(22@57"Implicit declaration of function 'PrintIntrospectionInfo'306131154#930#132#0(6@60"/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m306131144#10#0#10#0#36"implicit declaration of function '*'0(23@13"At top level:306131154#1062#76#0(6@60"/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m306131144#0#0#0#0#0"0(22@37"Conflicting types for 'PrintPathInfo'306131154#1138#112#0(6@60"/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m306131144#16#0#16#0#25"conflicting types for '*'0(22@57"Previous implicit declaration of 'PrintPathInfo' was here306131154#1250#131#0(6@60"/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m306131144#7#0#7#0#45"previous implicit declaration of '*' was here0(22@51"Format not a string literal and no format arguments306131154#1472#126#0(6@60"/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m306131144#20#0#20#0#51"format not a string literal and no format arguments0(0#0#60"/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m8615359296#1610"    cd /Users/andrew/Code/iPad/stanfordiPhone/WhatATool    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-generated-files.hmap -I/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-own-target-headers.hmap -I/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-all-target-headers.hmap -iquote /Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-project-headers.hmap -F/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/Debug -I/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/Debug/include -I/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/WhatATool.build/Debug/WhatATool.build/DerivedSources/x86_64 -I/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/WhatATool.build/Debug/WhatATool.build/DerivedSources -include /var/folders/ja/jaYFA52fGlWw4P7mXexlnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhatATool_Prefix-afohfogtvxjqzafasktmrgwknewk/WhatATool_Prefix.pch -c /Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool.m -o /Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/WhatATool.build/Debug/WhatATool.build/Objects-normal/x86_64/WhatATool.o1#
-
-CLd /Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/Debug/WhatATool normal x86_64
-r0
-
-CProcessPCH /var/folders/ja/jaYFA52fGlWw4P7mXexlnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhatATool_Prefix-afohfogtvxjqzafasktmrgwknewk/WhatATool_Prefix.pch.gch WhatATool_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s306131147.464490
-e306131153.676000
-r1
-xProcessPCH
-x/var/folders/ja/jaYFA52fGlWw4P7mXexlnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhatATool_Prefix-afohfogtvxjqzafasktmrgwknewk/WhatATool_Prefix.pch.gch
-xWhatATool_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile WhatATool_Prefix.pch306131147#306131153#0(0"0(0#0#69"/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool_Prefix.pch6875993255033533440#1494"    cd /Users/andrew/Code/iPad/stanfordiPhone/WhatATool    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-generated-files.hmap -I/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-own-target-headers.hmap -I/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-all-target-headers.hmap -iquote /Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/WhatATool.build/Debug/WhatATool.build/WhatATool-project-headers.hmap -F/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/Debug -I/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/Debug/include -I/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/WhatATool.build/Debug/WhatATool.build/DerivedSources/x86_64 -I/Users/andrew/Code/iPad/stanfordiPhone/WhatATool/build/WhatATool.build/Debug/WhatATool.build/DerivedSources -c /Users/andrew/Code/iPad/stanfordiPhone/WhatATool/WhatATool_Prefix.pch -o /var/folders/ja/jaYFA52fGlWw4P7mXexlnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WhatATool_Prefix-afohfogtvxjqzafasktmrgwknewk/WhatATool_Prefix.pch.gch0#
-
