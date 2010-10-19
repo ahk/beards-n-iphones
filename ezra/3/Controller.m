@@ -12,9 +12,7 @@
 	polygon = [[PolygonShape alloc] initWithNumberOfSides:numberOfSidesLabel.text.integerValue 
 									  minimumNumberOfSides:3 
 									 maximumNumberOfSides:12];
-	// I shouldn't need to do this!!!
-	// But, for some reason, I can't get outlets in IB to work right...
-	polygonView.polygon = polygon;
+	polygonView.numberOfSides = polygon.numberOfSides;
 	[self updateInterface];
 }
 
@@ -45,6 +43,8 @@
 		decreaseButton.enabled = YES;
 	}
 
+	polygonView.numberOfSides = polygon.numberOfSides;
+	polygonView.polygonName = polygon.name;
 	[polygonView setNeedsDisplay];
 	numberOfSidesLabel.text = [NSString stringWithFormat:@"%d", polygon.numberOfSides];
 	nameLabel.text = [NSString stringWithFormat:@"%@", polygon.name];

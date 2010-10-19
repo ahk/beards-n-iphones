@@ -11,11 +11,13 @@
 
 
 @interface PolygonView : UIView {
-	PolygonShape *polygon;
+	int numberOfSides;
+	NSString * polygonName;
 	IBOutlet UILabel *label;
 }
 
-@property(nonatomic, retain) IBOutlet PolygonShape *polygon;
+@property int numberOfSides;
+@property(nonatomic, copy) NSString * polygonName;
 
 // Class method provided in assignment instructions
 + (NSArray *)pointsForPolygonInRect:(CGRect)rect numberOfSides:(int)numberOfSides;

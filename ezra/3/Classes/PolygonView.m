@@ -10,7 +10,8 @@
 
 @implementation PolygonView
 
-@synthesize polygon;
+@synthesize numberOfSides;
+@synthesize polygonName;
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
@@ -20,7 +21,7 @@
 }
 
 - (void)drawRect:(CGRect)rect {
-	NSArray * polygonPoints = [PolygonView pointsForPolygonInRect:rect numberOfSides:polygon.numberOfSides];
+	NSArray * polygonPoints = [PolygonView pointsForPolygonInRect:rect numberOfSides:numberOfSides];
 
 	CGContextRef context = UIGraphicsGetCurrentContext();
 	CGContextBeginPath(context);
@@ -42,13 +43,12 @@
 	[[UIColor blackColor] setStroke];
 	CGContextDrawPath(context, kCGPathFillStroke);
 	
-	label.text = [NSString stringWithFormat:@"%@", polygon.name];
+	label.text = polygonName;
 }
 
 - (void)dealloc {
     [super dealloc];
-	
-	[polygon release];
+	[polygonName release];
 }
 
 + (NSArray *)pointsForPolygonInRect:(CGRect)rect numberOfSides:(int)numberOfSides {
