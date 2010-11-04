@@ -14,26 +14,25 @@ static AudioQueueRef audioQueue;
 static OSStatus err;
 
 
-static void AudioQueueCallback(AudioQueueRef inAQ,
+static void AudioQueueCallback(void* inUserData, AudioQueueRef inAQ,
                         AudioQueueBufferRef inBuffer) {
 	//    void* pBuffer = inBuffer->mAudioData;
-	int16_t* pcm_buf = inBuffer->mAudioData;
-	
+//	int16_t* pcm_buf = inBuffer->mAudioData;
+	double *pcm_buf = (double*) inBuffer->mAudioData;
     // fill with a sine wave
 	//    for(int s = 0; s < 0; s++) {
 	//        pcm_buf[s] = sin(2*pi*s);
 	//    }
 	
-	//UInt32 bytes = inBuffer->mAudioDataBytesCapacity;
+	UInt32 bytes = inBuffer->mAudioDataBytesCapacity;
 	// fill with a sine wave
-	int s;
-    for(s = 0; s < 0; s++) {
+    for (UInt32 s = 0; s < bytes; s++) {
 		// replace 3 with pi
-        pcm_buf[s] = sin(2*3*s);
+        pcm_buf[s] = sin(2*3.0*s);
     }
     // Write max <bytes> bytes of audio to <pBuffer>
-    inBuffer->mAudioDataByteSize = s;
-    err = AudioQueueEnqueueBuffer(inAQ, inBuffer, 0, NULL);
+    inBuffer->mAudioDataByteSize = bytes;
+    err = AudioQueueEnqueueBuffer(audioQueue, inBuffer, 0, NULL);
 }
 
 static void SetupAudioQueue() {
@@ -58,9 +57,9 @@ static void SetupAudioQueue() {
     for (int i = 0; i < BUFFER_COUNT; ++i) {
         AudioQueueBufferRef mBuffer;
 		// THIS LINE THROWS EXC_BAD_ACCESS
-        err = AudioQueueAllocateBuffer(audioQueue, BUFFER_SIZE, mBuffer);
+        err = AudioQueueAllocateBuffer(audioQueue, BUFFER_SIZE, &mBuffer);
         if (err != noErr) break;
-        AudioQueueCallback(audioQueue, mBuffer);
+        AudioQueueCallback(NULL, audioQueue, mBuffer);
     }
     if (err == noErr) err = AudioQueueStart(audioQueue, NULL);
     if (err == noErr) CFRunLoopRun();
