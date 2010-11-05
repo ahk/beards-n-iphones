@@ -18,20 +18,20 @@ static void AudioQueueCallback(void* inUserData, AudioQueueRef inAQ,
                         AudioQueueBufferRef inBuffer) {
 	//    void* pBuffer = inBuffer->mAudioData;
 //	int16_t* pcm_buf = inBuffer->mAudioData;
-	double *pcm_buf = (double*) inBuffer->mAudioData;
+	short int *pcm_buf = (short int*) inBuffer->mAudioData;
     // fill with a sine wave
 	//    for(int s = 0; s < 0; s++) {
 	//        pcm_buf[s] = sin(2*pi*s);
 	//    }
-	
+	//srand(time(NULL));
 	UInt32 bytes = inBuffer->mAudioDataBytesCapacity;
 	// fill with a sine wave
-    for (UInt32 s = 0; s < bytes; s++) {
+    for (int f = 0; f < bytes/2; f++) {
 		// replace 3 with pi
-        pcm_buf[s] = sin(2*3.0*s);
+        pcm_buf[f] = lrint(sin(2*3.1459*f/(bytes/2)) * 1000000);
     }
     // Write max <bytes> bytes of audio to <pBuffer>
-    inBuffer->mAudioDataByteSize = bytes;
+    inBuffer->mAudioDataByteSize = bytes/2;
     err = AudioQueueEnqueueBuffer(audioQueue, inBuffer, 0, NULL);
 }
 
@@ -54,12 +54,12 @@ static void SetupAudioQueue() {
                               CFRunLoopGetCurrent(), kCFRunLoopCommonModes,
                               0, &audioQueue);
     // Allocate buffers for the AudioQueue, and pre-fill them.
+	AudioQueueBufferRef mBuffers[BUFFER_COUNT];
     for (int i = 0; i < BUFFER_COUNT; ++i) {
-        AudioQueueBufferRef mBuffer;
 		// THIS LINE THROWS EXC_BAD_ACCESS
-        err = AudioQueueAllocateBuffer(audioQueue, BUFFER_SIZE, &mBuffer);
+        err = AudioQueueAllocateBuffer(audioQueue, BUFFER_SIZE, &mBuffers[i]);
         if (err != noErr) break;
-        AudioQueueCallback(NULL, audioQueue, mBuffer);
+        AudioQueueCallback(NULL, audioQueue, mBuffers[i]);
     }
     if (err == noErr) err = AudioQueueStart(audioQueue, NULL);
     if (err == noErr) CFRunLoopRun();
@@ -75,8 +75,8 @@ static void SetupAudioQueue() {
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-    SetupAudioQueue();
     [window makeKeyAndVisible];
+	SetupAudioQueue();
     
     return YES;
 }
