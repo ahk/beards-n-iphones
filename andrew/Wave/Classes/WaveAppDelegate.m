@@ -12,57 +12,75 @@
 #define BUFFER_COUNT 3
 static AudioQueueRef audioQueue;
 static OSStatus err;
-
+static AudioQueueBufferRef mBuffers[BUFFER_COUNT];
 
 static void AudioQueueCallback(void* inUserData, AudioQueueRef inAQ,
                         AudioQueueBufferRef inBuffer) {
 	//    void* pBuffer = inBuffer->mAudioData;
 //	int16_t* pcm_buf = inBuffer->mAudioData;
-	short int *pcm_buf = (short int*) inBuffer->mAudioData;
+	UInt32 bytes = inBuffer->mAudioDataBytesCapacity;
+	AudioSampleType *pcm_buf = (AudioSampleType*) inBuffer->mAudioData;
     // fill with a sine wave
 	//    for(int s = 0; s < 0; s++) {
 	//        pcm_buf[s] = sin(2*pi*s);
 	//    }
 	//srand(time(NULL));
-	UInt32 bytes = inBuffer->mAudioDataBytesCapacity;
 	// fill with a sine wave
-    for (int f = 0; f < bytes/2; f++) {
+    for (int f = 0; f < (bytes / 2); f++) {
 		// replace 3 with pi
-        pcm_buf[f] = lrint(sin(2*3.1459*f/(bytes/2)) * 1000000);
+        //pcm_buf[f] = ( sin(2*3.145*(f/(bytes/2.0))) * 32768);
+		pcm_buf[f] = (f/(bytes/512.0)) * 32768;
     }
     // Write max <bytes> bytes of audio to <pBuffer>
-    inBuffer->mAudioDataByteSize = bytes/2;
+
+    inBuffer->mAudioDataByteSize = bytes;
     err = AudioQueueEnqueueBuffer(audioQueue, inBuffer, 0, NULL);
 }
 
 static void SetupAudioQueue() {
 	
     err = noErr;
+// http://developer.apple.com/library/ios/#documentation/MusicAudio/Conceptual/CoreAudioOverview/CoreAudioEssentials/CoreAudioEssentials.html
+//	struct AudioStreamBasicDescription {
+//		mSampleRate       = 44100.0;
+//		mFormatID         = kAudioFormatLinearPCM;
+//		mFormatFlags      = kAudioFormatFlagsAudioUnitCanonical;
+//		mBytesPerPacket   = 1 * sizeof (AudioUnitSampleType);    // 8
+//		mFramesPerPacket  = 1;
+//		mBytesPerFrame    = 1 * sizeof (AudioUnitSampleType);    // 8
+//		mChannelsPerFrame = 2;
+//		mBitsPerChannel   = 8 * sizeof (AudioUnitSampleType);    // 32
+//		mReserved         = 0;
+//	};
     // Setup the audio device.
     AudioStreamBasicDescription deviceFormat;
     deviceFormat.mSampleRate = 44100;
     deviceFormat.mFormatID = kAudioFormatLinearPCM;
     deviceFormat.mFormatFlags = kLinearPCMFormatFlagIsSignedInteger;
-    deviceFormat.mBytesPerPacket = 4;
+    deviceFormat.mBytesPerPacket = 1 * sizeof (AudioSampleType);	
     deviceFormat.mFramesPerPacket = 1;
-    deviceFormat.mBytesPerFrame = 4;
-    deviceFormat.mChannelsPerFrame = 2;
-    deviceFormat.mBitsPerChannel = 16;
+    deviceFormat.mBytesPerFrame = 1 * sizeof (AudioSampleType);
+    deviceFormat.mChannelsPerFrame = 1;
+    deviceFormat.mBitsPerChannel = 8 * sizeof (AudioSampleType);
     deviceFormat.mReserved = 0;
     // Create a new output AudioQueue for the device.
-    err = AudioQueueNewOutput(&deviceFormat, AudioQueueCallback, NULL,
+    err = AudioQueueNewOutput(&deviceFormat, &AudioQueueCallback, NULL,
                               CFRunLoopGetCurrent(), kCFRunLoopCommonModes,
                               0, &audioQueue);
     // Allocate buffers for the AudioQueue, and pre-fill them.
-	AudioQueueBufferRef mBuffers[BUFFER_COUNT];
-    for (int i = 0; i < BUFFER_COUNT; ++i) {
+    for (int i = 0; i < BUFFER_COUNT; i++) {
 		// THIS LINE THROWS EXC_BAD_ACCESS
         err = AudioQueueAllocateBuffer(audioQueue, BUFFER_SIZE, &mBuffers[i]);
-        if (err != noErr) break;
+        if (err != noErr) {
+			break;
+		}
         AudioQueueCallback(NULL, audioQueue, mBuffers[i]);
     }
+	
     if (err == noErr) err = AudioQueueStart(audioQueue, NULL);
+	NSLog(@"got here");
     if (err == noErr) CFRunLoopRun();
+		NSLog(@"got here");
 }
 
 @implementation WaveAppDelegate
@@ -76,6 +94,7 @@ static void SetupAudioQueue() {
     
     // Override point for customization after application launch.
     [window makeKeyAndVisible];
+	NSLog(@"%p", window);
 	SetupAudioQueue();
     
     return YES;
