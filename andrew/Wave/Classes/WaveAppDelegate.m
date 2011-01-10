@@ -29,7 +29,7 @@ static void AudioQueueCallback(void* inUserData, AudioQueueRef inAQ,
     for (int f = 0; f < (bytes / 2); f++) {
 		// replace 3 with pi
         //pcm_buf[f] = ( sin(2*3.145*(f/(bytes/2.0))) * 32768);
-		pcm_buf[f] = (f/(bytes/512.0)) * 32768;
+		pcm_buf[f] = (f/(bytes/128.0)) * 32768;
     }
     // Write max <bytes> bytes of audio to <pBuffer>
 
